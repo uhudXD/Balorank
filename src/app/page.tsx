@@ -60,22 +60,6 @@ export default function Home() {
             strategic tips, and map-specific tactics.
           </p>
         </a>
-
-        <a
-          href="/Tiers"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-muted hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Tiers{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Discover the various ranks in Valorant and what it takes to climb
-            the ladder.
-          </p>
-        </a>
       </div>
     </main>
   );
