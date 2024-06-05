@@ -234,7 +234,11 @@ const WeaponsPage = () => {
                 {Array.from(skinMap.values())
                   .filter((skin) => skin.displayIcon !== null)
                   .map((skin) => (
-                    <SelectItem key={skin.uuid} value={skin.uuid}>
+                    <SelectItem
+                      key={skin.uuid}
+                      value={skin.uuid}
+                      className="flex justify-center"
+                    >
                       <img
                         src={skin.displayIcon}
                         alt={skin.displayName}
@@ -245,7 +249,7 @@ const WeaponsPage = () => {
               </SelectContent>
             </Select>
 
-            <div className="flex flex-col md:flex-row justify-between px-6 lg:px-28">
+            <div className="flex flex-col md:flex-row justify-between lg:px-28">
               <div className="flex flex-col">
                 {selectedWeapon.weaponStats && (
                   <div>
