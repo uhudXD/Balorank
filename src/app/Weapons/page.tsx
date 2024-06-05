@@ -230,7 +230,7 @@ const WeaponsPage = () => {
               <SelectTrigger className="h-12 w-full lg:w-40 flex justify-center gap-2 items-center my-4">
                 <SelectValue placeholder="Change Skin" />
               </SelectTrigger>
-              <SelectContent className="flex justify-center items-center max-h-72 bg-muted-90">
+              <SelectContent className="flex justify-center items-center max-h-72 bg-muted/90">
                 {Array.from(skinMap.values())
                   .filter((skin) => skin.displayIcon !== null)
                   .map((skin) => (
